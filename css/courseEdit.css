@@ -1,0 +1,42 @@
+form {
+	background: var(--main);
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 5px;
+	margin-top: 150px;
+	margin-bottom: 500px;
+}
+
+input, textarea {
+	margin: 10px 0;
+}
+
+input[type=submit] {
+	float: right;
+	padding: 5px 20px 5px 20px;
+	margin: 10px 0;
+}
+
+.label {
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid var(--pink);
+	padding: 5px 15px;
+	margin: 5px;
+	background: var(--main);
+	color: var(--pink);
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.label:hover {
+	background: var(--pink);
+	color: var(--text);
+	transition: 0.3s;
+}
+
+label.label input[type="file"] {
+	position: absolute;
+	top: -100000px;
+}

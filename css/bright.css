@@ -1,0 +1,13 @@
+:root {
+    /*Bright theme*/
+    --main: #74abea;
+    --mainHover: #5C88BB;
+    --second: #497d9f;
+    --third: #1b6799;
+    --bg:#d5e4f0;           /*Color for background*/
+    --pink: #f30a76;        /*Color for hovered links*/
+    --pinkHover : #c50960;
+    --light: #022b3c;       /*Color for input placeholders*/
+    --text: #020b14;        /*Color for text*/
+    --text2: #101A24;       /*Color for minor text (darker)*/
+}

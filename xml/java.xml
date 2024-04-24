@@ -1,0 +1,89 @@
+<qcm>
+	<titre>Java</titre>
+	<date>Avril 2022</date>
+	<instructions>Ce QCM sert a tester vos connaissances sur java.</instructions>
+	<auteurID>3</auteurID>
+	<difficulte>confirmed</difficulte>
+	<questions>
+		<question>
+			<libelle>La commande permettant d'executer une application java est :</libelle>
+			<proposition>javac</proposition>
+			<proposition>java</proposition>
+			<proposition>exec</proposition>
+			<proposition>java -c</proposition>
+			<reponse>2</reponse>
+		</question>
+		<question>
+			<libelle>La commande permettant de compiler un programme java est :</libelle>
+			<proposition>javac</proposition>
+			<proposition>java</proposition>
+			<proposition>exec</proposition>
+			<proposition>java -c</proposition>
+			<reponse>1</reponse>
+		</question>
+		<question>
+			<libelle>Un fichier contenant un programme java doit posseder l'extension :</libelle>
+			<proposition>jav</proposition>
+			<proposition>exe</proposition>
+			<proposition>class</proposition>
+			<proposition>java</proposition>
+			<reponse>4</reponse>
+		</question>
+		<question>
+			<libelle>Quand un programme java est compile, le fichier genere possede l'extension :</libelle>
+			<proposition>jav</proposition>
+			<proposition>exe</proposition>
+			<proposition>class</proposition>
+			<proposition>java</proposition>
+			<reponse>3</reponse>
+		</question>
+		<question>
+			<libelle>Pour compiler un programme, il faut se placer dans :</libelle>
+			<proposition>le repertoire ou est le programme java</proposition>
+			<proposition>le repertoire du dessus</proposition>
+			<proposition>le repertoire du dessous</proposition>
+			<proposition>le repertoire java</proposition>
+			<reponse>1</reponse>
+		</question>
+		<question>
+			<libelle>Quand un programme java est compile, le fichier genere est place dans : </libelle>
+			<proposition>le repertoire courant</proposition>
+			<proposition>le repertoire du dessus</proposition>
+			<proposition>le repertoire du dessous</proposition>
+			<proposition>le repertoire java</proposition>
+			<reponse>1</reponse>
+		</question>
+		<question>
+			<libelle>Quels sont les noms possibles pour un fichier contenant la classe "Voiture" ?</libelle>
+			<proposition>Voiture</proposition>
+			<proposition>voiture</proposition>
+			<proposition>TestVoiture.java</proposition>
+			<proposition>Voiture.java</proposition>
+			<proposition>voiture.java</proposition>
+			<proposition>voiture.Java</proposition>
+			<reponse>4</reponse>
+		</question>
+		<question>
+			<libelle>Pour compiler un programme java, celui-ci doit obligatoirement contenir une methode main.</libelle>
+			<proposition>Faux</proposition>
+			<proposition>Vrai</proposition>
+			<reponse>1</reponse>
+		</question>
+		<question>
+			<libelle>Pour executer une application java, le programme correspondant doit obligatoirement contenir une methode main.</libelle>
+			<proposition>Faux</proposition>
+			<proposition>Vrai</proposition>
+			<reponse>2</reponse>
+		</question>
+		<question>
+			<libelle>Pour executer une application java dont le programme source est dans le fichier "Test.java", je dois taper :</libelle>
+			<proposition>javac Test</proposition>
+			<proposition>javac Test.java</proposition>
+			<proposition>java Test.java</proposition>
+			<proposition>javac Test</proposition>
+			<proposition>java Test</proposition>
+			<proposition>java Test.class</proposition>
+			<reponse>5</reponse>
+		</question>
+	</questions>
+</qcm>

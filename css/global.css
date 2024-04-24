@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+:root {
+    --main: #1a2e45;
+    --mainHover: #294362;
+    --second: #006fb7;
+    --third: #003883;
+    --bg:#010B13;           /*Color for background*/
+    --pink: #f30a76;        /*Color for hovered links*/
+    --pinkHover : #c50960;
+    --light: #009de0;       /*Color for input placeholders*/
+    --text: #eff3f7;        /*Color for text*/
+    --text2: #c6d8ea;       /*Color for minor text (darker)*/
+
+}
+
+::selection {
+    background: var(--pink);
+    color: var(--text);
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    display: table;
+    width: 100%;
+}
+
+* {
+    font-family:'Myriad Pro Regular';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--pinkHover);
+    transition: 0.3s;
+}
+
+input[type=button], input[type=submit] {
+    background: var(--pink);
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 1px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+    color: var(--text2);
+    transition: 0.3s;
+    background: var(--pinkHover);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    background: var(--mainHover);
+}
+
+input {
+    color: var(--light);
+}
+
+input[type=submit], input[type=button] {
+    color: var(--text);
+}
+
+textarea {
+    background: var(--mainHover);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+
+h2{
+    position: relative;
+    display: inline;
+}
+h2::after {
+    background-color: var(--pink);
+    height: 40%;
+    width: 100%;
+    content: "";
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    left : 10px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}

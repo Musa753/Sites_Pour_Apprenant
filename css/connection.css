@@ -1,0 +1,33 @@
+body{
+    background: var(--bg);
+}
+
+form {
+    width:100%;
+    padding: 50px;
+    background: var(--main);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+}
+
+a {
+ color: var(--third);
+}
+
+
+input[type=submit]{
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+#container{
+    width:500px;   
+    margin:100px auto;
+}
+/* Bordered form */
+
+.inscriptionButton {
+    color: var(--text);
+}
+

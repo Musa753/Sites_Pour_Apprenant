@@ -1,0 +1,22 @@
+.course {
+	background: var(--main);
+	color: var(--text);
+	padding: 5px;
+}
+.course:nth-child(2n) {
+	background: var(--mainHover);
+}
+
+.courseListDiv {
+	width: 800px;
+	margin: 138px auto 500px auto;
+}
+
+.CourseListManagement{
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.button {
+	width: 90px;
+}

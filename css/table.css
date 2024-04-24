@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+	width: 800px;
+	margin: 138px auto 500px auto;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+tr:first-of-type {
+	background: linear-gradient(90deg, var(--second) 0%, var(--third) 100%);
+	border-bottom: 4px solid var(--mainHover);
+	position: relative;
+	z-index: 2;
+}
+tr {
+	background: var(--main);
+	color: var(--text); 
+}
+tr:nth-child(2n) {
+	background: var(--mainHover);
+}
+
+th  {
+	font-size: 140%;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+td {
+	padding: 10px;
+}

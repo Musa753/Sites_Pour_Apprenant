@@ -1,0 +1,17 @@
+.post {
+	display: block;
+	width: 700px;
+	margin: 50px auto 500px auto;
+}
+
+.loginMessage {
+	margin: 25px;
+	text-align: center;
+}
+.tableForum{
+	border-collapse: collapse;
+	width: 800px;
+	margin: 119px auto 50px auto;
+	border-radius: 5px;
+	overflow: hidden;
+}

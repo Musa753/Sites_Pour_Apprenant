@@ -1,0 +1,16 @@
+.questions {
+	width: 800px;
+	margin: 20px auto;
+	border-radius: 5px;
+	overflow: hidden;
+	background: var(--main);
+}
+
+.question {
+	
+	padding: 20px;
+}
+
+.question:nth-child(2n) {
+	background: var(--mainHover);
+}

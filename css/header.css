@@ -1,0 +1,59 @@
+.mainheader {
+	background: linear-gradient(90deg, var(--main) 0%, var(--third) 100%);
+	font-size: 400%;
+	padding: 10px;
+	color: var(--text);
+}
+
+.subheader {
+	background: linear-gradient(90deg, var(--main) 0%, var(--third) 100%);
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+	width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.right_subheader {
+	float: right;
+}
+
+.headerElement {
+	padding: 10px 15px 5px 10px;
+	text-align: center;
+	position : relative;
+	text-decoration: none;
+	color : var(--text);
+    z-index: 3;
+}
+.headerElement::after {
+    background-color: var(--pink);
+    height: 10%;
+    width: 0%;
+    content: "";
+    border-radius: 2px 2px 0 0;
+    display: block;
+    position: absolute;
+    transition: 0.3s;
+    left : 7px;
+    bottom: 0px;
+    z-index: 1;
+}
+.headerElement:hover::after {
+    width: 85%;
+}
+.headerElement:hover {
+    color: inherit;
+}
+#outline::after{
+	background-color: var(--pink);
+    height: 10%;
+    width: 85%;
+    content: "";
+    border-radius: 2px 2px 0 0;
+    bottom: 0px;
+}
