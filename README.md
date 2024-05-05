@@ -1,7 +1,6 @@
-Absolument ! Voici une mise à jour du README en incluant des instructions pour utiliser le serveur XAMPP :
-README - Mon site web d'apprentissage de la programmation
+ 
 
-Bienvenue sur mon site web d'apprentissage de la programmation ! Ce site a été conçu pour aider les débutants à apprendre à programmer de manière interactive et engageante. Voici un aperçu des fonctionnalités principales :
+Ce site a été conçu pour aider les débutants à apprendre à programmer de manière interactive et engageante. Voici un aperçu des fonctionnalités principales :
 Contenu
 
     Cours et vidéos : Des cours organisés par sujet, accompagnés de vidéos explicatives pour faciliter l'apprentissage.
@@ -21,7 +20,7 @@ Navigation sur le site
     Visionnage des vidéos : Cliquez sur les vidéos pour les regarder et apprendre les concepts.
     Testez vos connaissances : Après chaque cours, essayez les QCM pour évaluer votre compréhension.
  
-Contribution
+ 
 
 Si vous souhaitez contribuer à l'amélioration du site en ajoutant du contenu, des fonctionnalités ou en signalant des problèmes, n'hésitez pas à soumettre une demande via les issues sur GitHub.
 Technologies utilisées
